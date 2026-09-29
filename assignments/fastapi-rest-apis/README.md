@@ -1,4 +1,4 @@
-# 📘 Assignment: Building REST APIs with FastAPI
+# 📘 Assignment: Building REST APIs with the FastAPI Framework
 
 ## 🎯 Objective
 
@@ -15,6 +15,7 @@ Complete o endpoint `GET /health` no arquivo inicial para confirmar que a API es
 O programa concluído deve:
 
 - Iniciar com `uvicorn starter-code:app --reload`
+- Instalar as dependências com `pip install -r requirements.txt`
 - Responder a `GET /health` com status HTTP `200`
 - Retornar o JSON `{ "status": "ok" }`
 - Exibir a documentação interativa em `/docs`
@@ -23,12 +24,12 @@ O programa concluído deve:
 ### 🛠️ Add a Validated Book Endpoint
 
 #### Descrição
-Crie um modelo Pydantic `Book` e implemente `POST /books` para receber e validar dados de um livro.
+Use o modelo Pydantic `Book` fornecido no arquivo inicial e implemente `POST /books` para receber e validar dados de um livro.
 
 #### Requisitos
 O programa concluído deve:
 
-- Definir os campos `title`, `author` e `year` no modelo `Book`
+- Usar os campos `title`, `author` e `year` do modelo `Book`
 - Exigir `title` e `author` como textos não vazios
 - Validar `year` como um número entre 0 e o ano atual
 - Retornar o livro criado com status HTTP `201`
