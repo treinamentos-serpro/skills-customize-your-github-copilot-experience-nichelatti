@@ -77,6 +77,20 @@
           "type": "txt"
         }
       ]
+    },
+    {
+      "id": "search-and-sort-python",
+      "title": "Busca e Ordenação em Python",
+      "description": "Implemente algoritmos simples de busca e ordenação usando listas e funções em Python",
+      "path": "assignments/search-and-sort-python",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
